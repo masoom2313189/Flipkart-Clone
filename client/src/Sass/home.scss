@@ -1,0 +1,14 @@
+#main_heading a {
+  text-decoration: none;
+  cursor: pointer;
+  font-weight: bold;
+  color: black;
+}
+
+#main_heading div {
+  text-align: center;
+}
+
+#main_heading a:hover {
+  color: #2874f0;
+}

@@ -5,6 +5,8 @@ import { NavLink } from "react-router-dom";
 import "../Sass/Navbar.scss";
 import StarOutlineIcon from "@mui/icons-material/StarOutline";
 import SearchIcon from "@mui/icons-material/Search";
+import KeyboardArrowDownIcon from "@mui/icons-material/KeyboardArrowDown";
+import ShoppingCartIcon from "@mui/icons-material/ShoppingCart";
 
 const Navbar = () => {
   return (
@@ -12,9 +14,9 @@ const Navbar = () => {
       <nav className="navbar navbar-expand-lg navbar-dark bg-primary">
         <div className="container">
           <NavLink id="logo" className="navbar-brand" to="">
-            <h3>
+            <h4>
               <i>Flipkart</i>
-            </h3>
+            </h4>
             <small>
               <i>
                 Explore{" "}
@@ -38,13 +40,40 @@ const Navbar = () => {
           </button>
           <div className="collapse navbar-collapse" id="navbarSupportedContent">
             <ul className="navbar-nav me-auto mb-2 mb-lg-0">
-              <li className="nav-item">
-                <input type="text" id="search" />
-                <SearchIcon id="search_icon" />
+              <li className="nav-item" id="searchBox">
+                <input
+                  class="input"
+                  type="text"
+                  placeholder="Search for products, brands and more"
+                />
+                <div>
+                  <SearchIcon id="search_icon" />
+                </div>
               </li>
               <li className="nav-item">
-                <NavLink className="nav-link active" aria-current="page" to="#">
-                  Home
+                <NavLink
+                  className="nav-link active login"
+                  aria-current="page"
+                  to="#"
+                >
+                  Login
+                </NavLink>
+              </li>
+              <li className="nav-item">
+                <NavLink className="nav-link" aria-current="page" to="#">
+                  Become a Seller
+                </NavLink>
+              </li>
+              <li className="nav-item">
+                <NavLink className="nav-link" aria-current="page" to="#">
+                  More
+                  <KeyboardArrowDownIcon fontSize="small" />
+                </NavLink>
+              </li>
+              <li className="nav-item">
+                <NavLink className="nav-link" aria-current="page" to="#">
+                  <ShoppingCartIcon />
+                  Cart
                 </NavLink>
               </li>
             </ul>
