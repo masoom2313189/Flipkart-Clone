@@ -1,12 +1,12 @@
 import React from "react";
 import "bootstrap/dist/css/bootstrap.css";
-import pluslogo from "../Images/pluslogo.png";
 import { NavLink } from "react-router-dom";
 import "../Sass/Navbar.scss";
 import StarOutlineIcon from "@mui/icons-material/StarOutline";
 import SearchIcon from "@mui/icons-material/Search";
 import KeyboardArrowDownIcon from "@mui/icons-material/KeyboardArrowDown";
 import ShoppingCartIcon from "@mui/icons-material/ShoppingCart";
+import Login from "./Login";
 
 const Navbar = () => {
   return (
@@ -55,9 +55,13 @@ const Navbar = () => {
                   className="nav-link active login"
                   aria-current="page"
                   to="#"
+                  data-bs-toggle="modal"
+                  data-bs-target="#exampleModal"
+                  type="button"
                 >
                   Login
                 </NavLink>
+                <Login />
               </li>
               <li className="nav-item">
                 <NavLink className="nav-link" aria-current="page" to="#">
