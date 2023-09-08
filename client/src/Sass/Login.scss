@@ -18,3 +18,14 @@
   padding: 50px;
   font-weight: normal;
 }
+
+#login_main input {
+  border-radius: 0;
+  border: none;
+  border-bottom: 1px solid;
+}
+
+.form-control input:focus {
+  outline: none !important;
+  box-shadow: none !important;
+}

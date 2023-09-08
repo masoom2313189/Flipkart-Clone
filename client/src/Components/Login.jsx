@@ -5,16 +5,6 @@ import loginimg from "../Images/login.png";
 const Login = () => {
   return (
     <div>
-      {/* Button trigger modal */}
-      {/* <button
-        type="button"
-        class="btn btn-primary"
-        data-bs-toggle="modal"
-        data-bs-target="#exampleModal"
-      >
-        Launch demo modal
-      </button> */}
-
       {/* Modal  */}
       <div
         class="modal fade"
@@ -23,7 +13,7 @@ const Login = () => {
         aria-labelledby="exampleModalLabel"
         aria-hidden="true"
       >
-        <div class="modal-dialog modal-dialog-centered modal-lg">
+        <div class="modal-dialog modal-dialog-centered modal-lg col-md-12">
           <div class="modal-content">
             <div className="row" id="login">
               <div className="col-4" id="login_head">
@@ -35,10 +25,11 @@ const Login = () => {
                 <form>
                   <div class="form-floating mb-3">
                     <input
-                      type="email/number"
+                      type="text"
                       class="form-control"
                       id="floatingInput"
                       placeholder="name@example.com"
+                      required
                     />
                     <label for="floatingInput">Enter Email/Mobile Number</label>
                   </div>
@@ -48,12 +39,17 @@ const Login = () => {
                       class="form-control"
                       id="floatingPassword"
                       placeholder="Password"
+                      required
                     />
                     <label for="floatingPassword">Password</label>
                   </div>
+                  <small>
+                    By continuing, you agree to Flipkart's Terms of Use and
+                    Privacy Policy.
+                  </small>
                   <button
-                    class="btn btn-primary mb-3 col-12 btn-lg"
-                    type="button"
+                    class="btn btn-primary mb-3 mt-3 col-12 btn-lg"
+                    type="submit"
                   >
                     Button
                   </button>

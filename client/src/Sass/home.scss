@@ -1,14 +1,24 @@
-#main_heading a {
+// Navlist
+
+#Navlist a {
   text-decoration: none;
-  cursor: pointer;
-  font-weight: bold;
   color: black;
 }
 
-#main_heading div {
-  text-align: center;
+#Navlist a:hover {
+  color: #2874f0;
 }
 
-#main_heading a:hover {
-  color: #2874f0;
+#Navlist a img {
+  width: 60px;
+}
+
+#Navlist a p {
+  font-size: 14px;
+  font-weight: bold;
+}
+
+// Slider
+#Slider a img {
+  width: 100%;
 }
