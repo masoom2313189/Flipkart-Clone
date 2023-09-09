@@ -1,9 +1,10 @@
 import React from "react";
 import ItemList from "./ItemList";
-const BestOfElectronicsData = [
+
+const BeutyFoodToysData = [
   {
     id: 1,
-    img: "https://rukminim2.flixcart.com/image/200/200/kokdci80/dslr-camera/v/e/x/z-24-200mm-z5-nikon-original-imag2zuekuxgxsgg.jpeg?q=70",
+    img: "https://rukminim2.flixcart.com/image/200/200/kz5vwy80/helmet/o/4/k/-original-imagb8azfdthjhqr.jpeg?q=70",
     name: "Top Mirrorless Cameras",
     price: "Shop Now!",
     desc: "Canon, Sony, Fujifilm",
@@ -59,10 +60,10 @@ const BestOfElectronicsData = [
   },
 ];
 
-const BestOfElectronics = () => {
+const BeautyFoodToys = () => {
   return (
-    <ItemList data={BestOfElectronicsData} item_name="Best of Electronics" />
+    <ItemList data={BeutyFoodToysData} item_name="Beauty, Food, Toys & more" />
   );
 };
 
-export default BestOfElectronics;
+export default BeautyFoodToys;

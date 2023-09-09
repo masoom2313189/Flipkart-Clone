@@ -59,7 +59,7 @@ const Slider = () => {
         {SliderData.map((item) => (
           <SwiperSlide>
             <a href="#">
-              <img src={item.img} alt="Image" className="img-fluid" />
+              <img src={item.img} alt="Image" />
             </a>
           </SwiperSlide>
         ))}

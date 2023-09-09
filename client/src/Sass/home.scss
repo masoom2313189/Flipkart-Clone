@@ -22,3 +22,60 @@
 #Slider a img {
   width: 100%;
 }
+
+// All item List
+#item_list {
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  margin-top: 10px;
+  padding: 20px 0px;
+}
+#item_list a {
+  text-decoration: none;
+}
+
+#item_list a img {
+  width: 200px;
+  height: 150px;
+}
+
+#item_list a h6 {
+  margin-top: 20px;
+  color: black;
+}
+
+#item_list a p {
+  color: green;
+}
+
+#item_list a p + p {
+  color: gray;
+  margin-top: -10px;
+}
+
+#item_head {
+  text-align: center;
+}
+
+#item_head h2 {
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+#item_head a {
+  text-decoration: none;
+  padding: 10px 20px;
+  color: white;
+  background-color: #2874f0;
+  text-transform: uppercase;
+}
+
+.swiper-button-prev::after,
+.swiper-button-next::after {
+  padding: 40px 15px;
+  background-color: white;
+  color: black;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px,
+    rgba(0, 0, 0, 0.22) 0px 10px 10px;
+  font-size: 5px;
+  font-weight: bolder;
+}
