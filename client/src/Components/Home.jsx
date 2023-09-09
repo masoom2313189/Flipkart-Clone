@@ -5,6 +5,8 @@ import Navlist from "./Pages/Home/Navlist";
 import Slider from "./Pages/Home/Slider";
 import BestOfElectronics from "./Pages/Home/BestOfElectronics";
 import BeautyFoodToys from "./Pages/Home/BeautyFoodToys";
+import GiftsForYourLovedOnes from "./Pages/Home/GiftsForYourLovedOnes";
+import HomeDecorFurnishings from "./Pages/Home/HomeDecorFurnishings";
 
 const Home = () => {
   return (
@@ -13,6 +15,8 @@ const Home = () => {
       <Slider />
       <BestOfElectronics />
       <BeautyFoodToys />
+      <GiftsForYourLovedOnes />
+      <HomeDecorFurnishings />
     </>
   );
 };

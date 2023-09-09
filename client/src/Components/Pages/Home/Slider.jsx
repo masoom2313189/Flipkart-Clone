@@ -18,11 +18,11 @@ const SliderData = [
   },
   {
     id: 2,
-    img: "https://rukminim2.flixcart.com/fk-p-flap/50/50/image/5d7b3930dbada2c4.jpg?q=50",
+    img: "https://rukminim2.flixcart.com/fk-p-flap/844/140/image/489d3110296ee3bc.jpg?q=50",
   },
   {
     id: 3,
-    img: "https://rukminim2.flixcart.com/fk-p-flap/50/50/image/ed12b7707a04473c.jpg?q=50",
+    img: "https://rukminim2.flixcart.com/fk-p-flap/844/140/image/05adcdf765d309fd.jpg?q=50",
   },
   {
     id: 4,
