@@ -1,6 +1,7 @@
 import React from "react";
 import "../Sass/Login.scss";
 import loginimg from "../Images/login.png";
+import { NavLink as Link } from "react-router-dom";
 
 const Login = () => {
   return (
@@ -13,7 +14,7 @@ const Login = () => {
         aria-labelledby="exampleModalLabel"
         aria-hidden="true"
       >
-        <div class="modal-dialog modal-dialog-centered modal-lg col-md-12">
+        <div class="modal-dialog modal-dialog-centered modal-md col-md-12">
           <div class="modal-content">
             <div className="row" id="login">
               <div className="col-4" id="login_head">
@@ -44,14 +45,16 @@ const Login = () => {
                     <label for="floatingPassword">Password</label>
                   </div>
                   <small>
-                    By continuing, you agree to Flipkart's Terms of Use and
-                    Privacy Policy.
+                    By continuing, you agree to Flipkart's{" "}
+                    <a href="#">Terms of Use</a> and{" "}
+                    <a href="#">Privacy Policy</a>.
                   </small>
                   <button
-                    class="btn btn-primary mb-3 mt-3 col-12 btn-lg"
+                    class="btn btn-warning mb-3 mt-3 col-12 btn-lg"
                     type="submit"
+                    id="button"
                   >
-                    Button
+                    Login
                   </button>
                 </form>
               </div>

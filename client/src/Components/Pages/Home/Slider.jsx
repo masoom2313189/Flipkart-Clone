@@ -26,7 +26,7 @@ const SliderData = [
   },
   {
     id: 4,
-    img: "https://rukminim2.flixcart.com/fk-p-flap/50/50/image/489d3110296ee3bc.jpg?q=50",
+    img: "https://rukminim2.flixcart.com/fk-p-flap/844/140/image/9f046dbb7cebbf42.jpg?q=50",
   },
   {
     id: 5,

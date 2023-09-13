@@ -1,7 +1,7 @@
 #login_head {
   background-color: #2874f0;
   color: white;
-  padding: 40px 30px;
+  padding: 20px 30px;
 }
 
 #login_head p {
@@ -15,7 +15,7 @@
 }
 
 #login_main {
-  padding: 50px;
+  padding: 30px;
   font-weight: normal;
 }
 
@@ -28,4 +28,18 @@
 .form-control input:focus {
   outline: none !important;
   box-shadow: none !important;
+}
+
+#login_head p {
+  font-size: 15px;
+}
+
+small {
+  font-size: 10px;
+}
+
+#button {
+  border-radius: 0;
+  background-color: orangered;
+  color: white;
 }
